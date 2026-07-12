@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Models
+models/*.pkl
+!models/.gitkeep
+
+# Data (real dataset -- don't commit; it's large and Kaggle-licensed)
+data/sample_creditcard.csv
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.log
