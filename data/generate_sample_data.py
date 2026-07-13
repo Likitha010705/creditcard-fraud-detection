@@ -23,7 +23,7 @@ import pandas as pd
 
 RNG = np.random.default_rng(42)
 
-N_ROWS = 6000
+N_ROWS = 2000
 FRAUD_RATE = 0.0017  # matches the real dataset's ~0.172% fraud rate
 
 
